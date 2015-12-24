@@ -4,7 +4,6 @@
   "description": "Completely separate back-end development, the local database using lowdb, with json-server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run init-plugins & npm run init-globe-plugins",
     "init-globe-plugins": " npm install http-server json-server gulp -g ",
     "init-plugins": "npm install browser-sync gulp gulp-watch gulp-load-plugins ",
